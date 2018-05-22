@@ -1,9 +1,5 @@
 # -*- coding:utf-8 _*-
 from django.db.models import Q
-
-__author__ = 'mtianyan'
-__date__ = '2018/03/03 00:44'
-
 from django_filters import rest_framework as filters
 from goods.models import Goods
 from django.utils.translation import ugettext_lazy as _
